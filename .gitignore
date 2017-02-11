@@ -1,3 +1,5 @@
 _config.yml
 _site/*
-.idea
+*Thumbs.db
+Gemfile.lock
+runserver.bat

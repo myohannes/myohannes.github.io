@@ -1,46 +1,37 @@
-# Blog Starter Jekyll Template
-Jekyll Based Blog Starter Template with Pygments Highlighter 
+dbyll
+=====
 
-## Installation & Usage
-    ./install.sh (may need admin privileges)
-    ./runserver.sh
+Open source stylish, minimalistic theme for jekyll.  
+Demo: http://dbtek.github.io/dbyll/
 
-_Note: Visit page at `http://127.0.0.1:4000/`_
-_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
-    
-## Configuration
-Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
+## New
+- Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+- :new: Check out [Paper](https://github.com/dbtek/paper), new Material Design Jekyll theme.
 
-```
-blog-starter-template/
-├── _config.yml
-├── css/
-    ├── main.css
-```
+### Features
+- Responsive layout.
+- Supports tags and categories.
+- Social profile and bio of author.
+- Bootstrap based.
+- Glyphicon and Font-Awesome Icons.
+- Pagination.
+- Syntax highlighting with pygments.
+- Disqus comments.
+- :new: Custom sidebar background image.
 
-_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
-    
-## Publish to User Github Pages
-Ensure you have git installed on commandline
-- Create a repository
-  - Log into GitHub and create a new repository named username.github.io, where username is your username (or organization name) on GitHub.
-  - `git remote add origin https://github.com/username/username.github.io`
-  - `git push origin username.github.io`
-   
-##  Blog Content
-Create a file in `_posts` following syntax `YYYY-MM-DD-title.md`
+### Download
+* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
 
-## Recommended Accounts
-- [Gravatar](https://en.gravatar.com/) 
-- [Disqus](https://disqus.com/profile/login/)
-- [Google Analytics](https://en.gravatar.com/)
+### Install
+- You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) installed in your system.
+- Install bundler which helps in specifying and installing dependencies of any Ruby project. ```gem install bundler```
+- Go to the root of the repo and run this - ```bundle install```
+- Then - ```bundle exec jekyll serve```
 
-## References
+### Screenshots
+![dbyll-screenshot](assets/media/dbyll-ss.png)
 
-[Flex Jekyll Theme] (http://the-development.github.io/flex/)
-
-## Copyright and license
-
-[The MIT License ](LICENSE)
+### License
+- [MIT](http://opensource.org/licenses/MIT)
 
